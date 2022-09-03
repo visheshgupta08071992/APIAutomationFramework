@@ -15,6 +15,4 @@ test-output
 *.log
 *.bak
 reports
-zipFile.zip
-textFile.txt
 .DS_Store
