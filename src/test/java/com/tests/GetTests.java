@@ -1,6 +1,6 @@
 package com.tests;
 
-import com.utils.ApiUtils;
+import com.requestbuilder.RequestBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
@@ -12,7 +12,7 @@ public class GetTests {
 
     @Test
     public void getEmployeeDetails(){
-      Response  respnose = ApiUtils
+      Response  respnose = RequestBuilder
               .buildRequestForGetCalls()
               .header("Content-Type", ContentType.JSON)
               .get("/employees");
@@ -33,7 +33,7 @@ public class GetTests {
 
     @Test
     public void getEmployeesDetails(){
-        Response  respnose = ApiUtils
+        Response  respnose = RequestBuilder
                 .buildRequestForGetCalls()
                 .pathParam("id",1)
                 .header("Content-Type", ContentType.JSON)
