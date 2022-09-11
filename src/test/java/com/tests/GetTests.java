@@ -21,7 +21,7 @@ import java.util.*;
 import static Request.RequestBodies.*;
 import static io.restassured.RestAssured.given;
 
-public class  GetRequest {
+public class GetTests {
 
     /*
     * {
