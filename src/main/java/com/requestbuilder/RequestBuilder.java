@@ -1,5 +1,7 @@
 package com.requestbuilder;
 
+import com.enums.PropertiesType;
+import com.utils.PropertyUtils;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
@@ -13,7 +15,7 @@ public final class RequestBuilder {
 
     public static RequestSpecification buildRequestForGetCalls(){
         return   given()
-                .baseUri("http://localhost:3000")
+                .baseUri(PropertyUtils.getValue(PropertiesType.BASEURL))
                 .log().all();
     }
 

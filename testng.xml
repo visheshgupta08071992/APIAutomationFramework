@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.listners.TestListner"></listener>
+    </listeners>
+    <test parallel="methods" thread-count="1" name="C:/VisheshProjects/APIAutomationFramework">
+        <classes>
+            <class name="com.tests.GetTests">
+                <methods>
+                    <include name="getEmployeeDetails"/>
+                    <include name="getEmployeesDetails"/>
+                </methods>
+            </class>
+            <class name="com.tests.PostTests">
+                <methods>
+                    <include name="postCallTest"/>
+                    <include name="postRequestUsingExternalFile"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

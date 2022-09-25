@@ -1,0 +1,18 @@
+{
+    "id": "4040",
+    "first_name": "Lilliana",
+    "last_name": "Cruickshank",
+    "email": "brett.ratke@hotmail.com",
+    "jobs": [
+        "Tester",
+        "Trainer"
+    ],
+    "favFoods": {
+        "breakfast": "idly",
+        "lunch": "rice",
+        "dinner": [
+            "Chapati",
+            "Milk"
+        ]
+    }
+}

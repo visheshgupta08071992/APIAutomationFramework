@@ -1,0 +1,18 @@
+{
+    "id": "57270",
+    "first_name": "Darrel",
+    "last_name": "Romaguera",
+    "email": "genny.schamberger@gmail.com",
+    "jobs": [
+        "Tester",
+        "Trainer"
+    ],
+    "favFoods": {
+        "breakfast": "idly",
+        "lunch": "rice",
+        "dinner": [
+            "Chapati",
+            "Milk"
+        ]
+    }
+}

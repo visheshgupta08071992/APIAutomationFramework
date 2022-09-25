@@ -1,0 +1,18 @@
+{
+    "id": "36644",
+    "first_name": "Florencio",
+    "last_name": "Kuphal",
+    "email": "miquel.dooley@gmail.com",
+    "jobs": [
+        "Tester",
+        "Trainer"
+    ],
+    "favFoods": {
+        "breakfast": "idly",
+        "lunch": "rice",
+        "dinner": [
+            "Chapati",
+            "Milk"
+        ]
+    }
+}
