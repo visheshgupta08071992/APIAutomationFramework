@@ -14,5 +14,4 @@ bin
 test-output
 *.log
 *.bak
-reports
 .DS_Store

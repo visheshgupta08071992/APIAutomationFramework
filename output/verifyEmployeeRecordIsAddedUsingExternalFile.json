@@ -1,0 +1,18 @@
+{
+    "id": "85644",
+    "first_name": "Mathew",
+    "last_name": "Schuster",
+    "email": "albert.aufderhar@hotmail.com",
+    "jobs": [
+        "Tester",
+        "Trainer"
+    ],
+    "favFoods": {
+        "breakfast": "idly",
+        "lunch": "rice",
+        "dinner": [
+            "Chapati",
+            "Milk"
+        ]
+    }
+}

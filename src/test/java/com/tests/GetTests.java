@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.given;
 public class GetTests extends BaseTest {
 
     @Test
-    public void getEmployeeDetails(){
+    public void verifyAllEmployeeDetails(){
       Response  respnose = RequestBuilder
               .buildRequestForGetCalls()
               .header("Content-Type", ContentType.JSON)
@@ -41,7 +41,7 @@ public class GetTests extends BaseTest {
     }
 
     @Test(dataProvider = "getData")
-    public void getEmployeesDetails(Integer id,String lastName){
+    public void verifySpecificEmployeeDetails(Integer id,String lastName){
         Response  respnose = RequestBuilder
                 .buildRequestForGetCalls()
                 .pathParam("id",id)

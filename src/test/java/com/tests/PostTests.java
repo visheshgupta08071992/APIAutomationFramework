@@ -23,7 +23,7 @@ import static com.utils.RandomUtils.*;
 public class PostTests extends BaseTest  {
 
     @Test
-    public void postCallTest(){
+    public void verifyEmployeeRecordIsAdded(){
 
         FavFoods favFoods=FavFoods.builder().breakfast("poha").lunch("roti").dinner(Arrays.asList("pizza","doodh")).build();
         Employee employee=Employee.builder().id(getId()).firstName(getFirstName()).lastName(getFirstName()).email(getEmail())
@@ -47,7 +47,7 @@ public class PostTests extends BaseTest  {
 
 
     @Test
-    public void postRequestUsingExternalFile(Method method) throws IOException {
+    public void verifyEmployeeRecordIsAddedUsingExternalFile(Method method) throws IOException {
         String resource = ApiUtils.readJsonandGetAsString(FrameworkConstants.getRequestFolderPath() + "request.json")
                                    .replace("number", String.valueOf(RandomUtils.getId()))
                                    .replace("firstName",RandomUtils.getFirstName())

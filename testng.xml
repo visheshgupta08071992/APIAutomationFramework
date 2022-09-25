@@ -8,14 +8,14 @@
         <classes>
             <class name="com.tests.GetTests">
                 <methods>
-                    <include name="getEmployeeDetails"/>
-                    <include name="getEmployeesDetails"/>
+                    <include name="verifyAllEmployeeDetails"/>
+                    <include name="verifySpecificEmployeeDetails"/>
                 </methods>
             </class>
             <class name="com.tests.PostTests">
                 <methods>
-                    <include name="postCallTest"/>
-                    <include name="postRequestUsingExternalFile"/>
+                    <include name="verifyEmployeeRecordIsAdded"/>
+                    <include name="verifyEmployeeRecordIsAddedUsingExternalFile"/>
                 </methods>
             </class>
         </classes>
